@@ -1,5 +1,9 @@
 {"libricateg": [
 		{ "id":1, "tipo":"ultimi arrivi"}
+		{ "id":3, "tipo":"Da non perdere"}
+		{ "id":4, "tipo":"I più venduti"}
+		{ "id":5, "tipo":"Offerte speciali"}
+		{ "id":2, "tipo":"Remainders"}
 
 	 ]
 }
