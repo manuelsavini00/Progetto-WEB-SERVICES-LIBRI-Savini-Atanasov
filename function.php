@@ -1,27 +1,14 @@
 <?php
- function get_price($find){
-	/* $books=array(
-	 "java"=>299,
-	 "c"=>348,
-	 "php"=>267
-	 );*/
-	$str = file_get_contents('http://localhost/json/book.json');
-	$books = json_decode($str, true); 
-	// echo '<pre>' . print_r($books, true) . '</pre>';
-	/* foreach($books as $book=>$price)
-	 {
-		 if($book==$find)
-		 {
-			 return $price;
-			 break;
-		 }
-	 }*/
+ function get_reparto($find){
+
+	$str = file_get_contents('http://localhost/json/reparti.json');
+	$reparti = json_decode($str, true); 
 	 
-	 foreach($books['book'] as $book)
+	 foreach($reparti['reparto'] as $reparto)
 	 {
-		 if($book['name']==$find)
+		 if($reparto['tipo']==$find)
 		 {
-			 return $book['price'];
+			 return $reparto['id'];
 			 break;
 		 }
 	 }

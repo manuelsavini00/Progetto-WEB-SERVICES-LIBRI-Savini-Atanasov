@@ -1,0 +1,19 @@
+<?php
+ function get_result($reparto, $id_libro){
+
+	$str = file_get_contents('http://localhost/json/libri.json');
+	$libri = json_decode($str, true); 
+	 
+	 $result = array();
+	 foreach($libri['libricateg'] as $categ)
+	 {
+		 if($categ['tipo']==$find)
+		 {
+			array_push($id_libri, $categ['id']); 
+	
+		 }
+	 }
+	  return $id_libri;
+ }
+
+?>

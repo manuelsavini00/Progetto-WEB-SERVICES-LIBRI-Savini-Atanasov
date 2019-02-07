@@ -2,10 +2,17 @@
 // process client request (via URL)
 	header ("Content-Type_application/json");
 	include ("function.php");
+	include("libricateg.php");
 	if(!empty($_GET['name'])){
 	
+	
 			$name=$_GET['name'];
-			$price=get_price($name);
+			
+			switch($name){
+				
+			case 1:
+			$reparto=get_reparto("fumetti");
+			$id_libro = get_categ("ultimi arrivi");
 	
 			if(empty($price))
 		//book not found
