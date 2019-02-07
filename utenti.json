@@ -1,4 +1,10 @@
 {"utenti":[
-	{"telefono":"111111111","nome":"mario"          },
+	{"telefono":"111111111","nome":"mario","cognome":"rossi","e-mail":"mario.rossi@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cesena","Nazione":"Italia","Fax":054733325},
+	{"telefono":"111111111","nome":"Abdelmalek","cognome":"Samir","e-mail":"samirIlBoss@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Sofia","Nazione":"Marocco","Fax":054733325},
+	{"telefono":"111111111","nome":"Giacomo","Ravaglia":"rossi","e-mail":"giacomo.ravaglia@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cina","Nazione":"Italia","Fax":054733325},
+	{"telefono":"111111111","nome":"Manuel","Savini":"rossi","e-mail":"manuel.savini@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cesena","Nazione":"Italia","Fax":054733325},
+	{"telefono":"111111111","nome":"Atanas","Atanasov":"rossi","e-mail":"atanas.atanasov.todorov@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cesena","Nazione":"Italia","Fax":054733325},
+	{"telefono":"111111111","nome":"mario","cognome":"rossi","e-mail":"mario.rossi@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cesena","Nazione":"Italia","Fax":054733325},
+	{"telefono":"111111111","nome":"mario","cognome":"rossi","e-mail":"mario.rossi@gmail.com","password":12345,"indirizzo":"via ahahaha","CAP":47025,"Città":"Cesena","Nazione":"Italia","Fax":054733325},
 	]
 }
