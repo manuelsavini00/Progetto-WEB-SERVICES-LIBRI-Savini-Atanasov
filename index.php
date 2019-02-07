@@ -3,6 +3,9 @@
 	header ("Content-Type_application/json");
 	include ("function.php");
 	include("libricateg.php");
+	include("query1.php");
+	
+	
 	if(!empty($_GET['name'])){
 	
 	
@@ -11,15 +14,17 @@
 			switch($name){
 				
 			case 1:
+		
 			$reparto=get_reparto("fumetti");
 			$id_libro = get_categ("ultimi arrivi");
-	
-			if(empty($price))
-		//book not found
-			deliver_response(200,"book not found", NULL);
-			else
-			//respond book price
-			deliver_response(200,"book found", $price);
+			
+			$result = query1($reparto, $id_libro);
+
+			deliver_response(200,"Quantità", $result);
+
+			case 2:
+			
+			case 3:
 				}
 	else
 	{
