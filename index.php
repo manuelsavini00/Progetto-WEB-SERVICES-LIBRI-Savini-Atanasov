@@ -24,6 +24,9 @@
 
 			case 2:
 			
+			$sconti = get_sconti();
+			deliver_response(200,"Elenco sconto libri", $sconti)
+			
 			case 3:
 				}
 	else
