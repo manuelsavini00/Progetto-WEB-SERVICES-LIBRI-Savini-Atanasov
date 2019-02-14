@@ -1,0 +1,10 @@
+{"libri_carrello": [
+		{"id": 1 , "carrello":1, "nCopie" = 5}
+		{"id": 2 , "carrello":2, "nCopie" = 2},
+		{"id": 3 , "carrello":3, "nCopie" = 10},
+		{"id": 4 , "carrello":4, "nCopie" = 6},
+		{"id": 5 , "carrello":5, "nCopie" = 4},
+		{"id": 6 , "carrello":6, "nCopie" = 18},
+		{"id": 7 , "carrello":7, "nCopie" = 9},
+	 ]
+}
