@@ -35,14 +35,12 @@
 			d1 = $_GET['d1'];
 			d2 = $_GET['d2'];
 			
-			libri_date = get_date(d1, d2);
+			$libri_date = get_date(d1, d2);
 			deliver_response(200,"Libri all' interno del range", $lbri_date);
 			break;
 			case 4:
 			
 			
-			break;
-			case default: echo("Il numero della query non esiste");
 			break;
 				}
 	else
