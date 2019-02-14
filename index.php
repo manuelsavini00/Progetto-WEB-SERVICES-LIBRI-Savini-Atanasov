@@ -3,7 +3,10 @@
 	header ("Content-Type_application/json");
 	include ("function.php");
 	include("libricateg.php");
+	include("get_date.php");
+	include("get_sconti.php");
 	include("query1.php");
+	
 	
 	
 	if(!empty($_GET['name'])){
