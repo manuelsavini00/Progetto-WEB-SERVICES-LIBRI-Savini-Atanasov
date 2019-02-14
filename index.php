@@ -25,9 +25,21 @@
 			case 2:
 			
 			$sconti = get_sconti();
-			deliver_response(200,"Elenco sconto libri", $sconti)
+			deliver_response(200,"Elenco sconto libri", $sconti);
 			
 			case 3:
+			
+			d1 = $_GET['d1'];
+			d2 = $_GET['d2'];
+			
+			libri_date = get_date(d1, d2);
+			deliver_response(200,"Libri all' interno del range", $lbri_date);
+			
+			case 4:
+			
+			
+			
+			case default: echo("Il numero della query non esiste");
 				}
 	else
 	{
