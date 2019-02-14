@@ -1,4 +1,5 @@
 {"book": [
+<<<<<<< HEAD
 {"id":1,"titolo":"Detective (Détective)","prezzo":"€33,39","Pagine":1,"annoPub":2001,"autore":"Dewitt Shayler","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"", "dataArchiviazione":"2008-12-1"},
 {"id":2,"titolo":"Strange Love of Martha Ivers, The","prezzo":"€10,65","Pagine":2,"annoPub":2002,"autore":"Ethelind Gateland","reparto":3,"rilegato":"si","immagine":"null","editore":"AlphaTest","Collana":"","dataArchiviazione":"2009-6-4"},
 {"id":3,"titolo":"Animal Factory","prezzo":"€29,45","Pagine":3,"annoPub":2011,"autore":"Levon Renshaw","reparto":5,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":"","dataArchiviazione":"2000-3-27"},
@@ -30,6 +31,18 @@
 {"id":29,"titolo":"Good Advice","prezzo":"€37,61","Pagine":29,"annoPub":2007,"autore":"Jereme Brant","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2008-3-19"},
 {"id":30,"titolo":"Two Days, One Night (Deux jours, une nuit)","prezzo":"€24,18","Pagine":30,"annoPub":2002,"autore":"Daryn Pietrusiak","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2008-10-12"}
 ]
+=======
+{"id":1,"titolo":"Detective (Détective)","prezzo":"€33,39","Pagine":1,"annoPub":2001,"autore":"Dewitt Shayler","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":""},
+{"id":2,"titolo":"Strange Love of Martha Ivers, The","prezzo":"€10,65","Pagine":2,"annoPub":2002,"autore":"Ethelind Gateland","reparto":3,"rilegato":"si","immagine":"null","editore":"AlphaTest","Collana":""},
+{"id":3,"titolo":"Animal Factory","prezzo":"€29,45","Pagine":3,"annoPub":2011,"autore":"Levon Renshaw","reparto":5,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":""},
+{"id":4,"titolo":"Green Card","prezzo":"€30,78","Pagine":4,"annoPub":1995,"autore":"Emilio Churchyard","reparto":10,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":""},
+{"id":5,"titolo":"Palms (Ladoni)","prezzo":"€16,42","Pagine":5,"annoPub":2004,"autore":"Rosmunda Bisson","reparto":9,"rilegato":"si","immagine":"null","editore":"Cigno","Collana":""},
+{"id":6,"titolo":"The Aggression Scale","prezzo":"€31,01","Pagine":6,"annoPub":1996,"autore":"Ginelle Stonehewer","reparto":3,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":""},
+{"id":7,"titolo":"Crossing Delancey","prezzo":"€27,73","Pagine":7,"annoPub":2003,"autore":"Jacintha Lawdham","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":""},
+{"id":8,"titolo":"Sekirei","prezzo":"€10,49","Pagine":8,"annoPub":1994,"autore":"Lia Hatherley","reparto":1,"rilegato":"si","immagine":"null","editore":"Cigno","Collana":""},
+{"id":9,"titolo":"Gone with the Wind","prezzo":"€34,68","Pagine":9,"annoPub":2007,"autore":"Ruby Balducci","reparto":4,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":""},
+{"id":10,"titolo":"Hush... Hush, Sweet Charlotte","prezzo":"€9,46","Pagine":10,"annoPub":1995,"autore":"Arlina Hand","reparto":8,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":""},
+>>>>>>> 051ce4d2683128bd24537624fe1b991b88bae427
 
-	 
+] 
 }
