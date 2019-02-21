@@ -32,6 +32,7 @@
 			break;
 			//case 3:
 			
+<<<<<<< HEAD
 			//$d1 = $_GET['d1'];
 			//$d2 = $_GET['d2'];
 			
@@ -42,8 +43,24 @@
 			
 			
 			//break;
+=======
+			$d1 = $_GET['d1'];
+			$d2 = $_GET['d2'];
 			
+			$libri_date = get_date(d1, d2);
+			deliver_response(200,"Libri all' interno del range", $lbri_date);
+			break;
+			case 4:
+>>>>>>> 5a81ccbc982cbd07868d4ed37e56dcda8394a9e3
 			
+			$id_carrello = $_GET['id'];
+			
+<<<<<<< HEAD
+=======
+			$carrello = get_carrello($id);
+			deliver_response(200,"Carrello dell' utente", 
+			break;
+>>>>>>> 5a81ccbc982cbd07868d4ed37e56dcda8394a9e3
 				}
 	}
 	else
