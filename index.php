@@ -32,15 +32,18 @@
 			break;
 			case 3:
 			
-			d1 = $_GET['d1'];
-			d2 = $_GET['d2'];
+			$d1 = $_GET['d1'];
+			$d2 = $_GET['d2'];
 			
 			$libri_date = get_date(d1, d2);
 			deliver_response(200,"Libri all' interno del range", $lbri_date);
 			break;
 			case 4:
 			
+			$id_carrello = $_GET['id'];
 			
+			$carrello = get_carrello($id);
+			deliver_response(200,"Carrello dell' utente", 
 			break;
 				}
 	else
