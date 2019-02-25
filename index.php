@@ -30,37 +30,22 @@
 			$sconti = get_sconti();
 			deliver_response(200,"Elenco sconto libri", $sconti);
 			break;
-			//case 3:
-			
-<<<<<<< HEAD
-			//$d1 = $_GET['d1'];
-			//$d2 = $_GET['d2'];
-			
-			//$libri_date = get_date($d1, $d2);
-			//deliver_response(200,"Libri all' interno del range", $lbri_date);
-			//break;
-			//case 4:
-			
-			
-			//break;
-=======
-			$d1 = $_GET['d1'];
+			case 3:
+
+		/*	$d1 = $_GET['d1'];
 			$d2 = $_GET['d2'];
 			
 			$libri_date = get_date(d1, d2);
-			deliver_response(200,"Libri all' interno del range", $lbri_date);
+			deliver_response(200,"Libri all' interno del range", $lbri_date);*/
 			break;
 			case 4:
->>>>>>> 5a81ccbc982cbd07868d4ed37e56dcda8394a9e3
 			
 			$id_carrello = $_GET['id'];
 			
-<<<<<<< HEAD
-=======
 			$carrello = get_carrello($id);
-			deliver_response(200,"Carrello dell' utente", 
+			//deliver_response(200,"Carrello dell' utente", 
 			break;
->>>>>>> 5a81ccbc982cbd07868d4ed37e56dcda8394a9e3
+
 				}
 	}
 	else
