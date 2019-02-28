@@ -1,6 +1,6 @@
 {"book": [
 {"id":1,"titolo":"Detective (Détective)","prezzo":"€33,39","Pagine":1,"annoPub":2001,"autore":"Dewitt Shayler","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"", "dataArchiviazione":"2008-12-1"},
-{"id":2,"titolo":"Strange Love of Martha Ivers, The","prezzo":"€10,65","Pagine":2,"annoPub":2002,"autore":"Ethelind Gateland","reparto":3,"rilegato":"si","immagine":"null","editore":"AlphaTest","Collana":"","dataArchiviazione":"2009-6-4"},
+{"id":2,"titolo":"Strange Love of Martha Ivers The","prezzo":"€10,65","Pagine":2,"annoPub":2002,"autore":"Ethelind Gateland","reparto":3,"rilegato":"si","immagine":"null","editore":"AlphaTest","Collana":"","dataArchiviazione":"2009-6-4"},
 {"id":3,"titolo":"Animal Factory","prezzo":"€29,45","Pagine":3,"annoPub":2011,"autore":"Levon Renshaw","reparto":5,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":"","dataArchiviazione":"2000-3-27"},
 {"id":4,"titolo":"Green Card","prezzo":"€30,78","Pagine":4,"annoPub":1995,"autore":"Emilio Churchyard","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2002-9-15"},
 {"id":5,"titolo":"Palms (Ladoni)","prezzo":"€16,42","Pagine":5,"annoPub":2004,"autore":"Rosmunda Bisson","reparto":9,"rilegato":"si","immagine":"null","editore":"Cigno","Collana":"","dataArchiviazione":"2012-12-12"},
@@ -8,7 +8,7 @@
 {"id":7,"titolo":"Crossing Delancey","prezzo":"€27,73","Pagine":7,"annoPub":2003,"autore":"Jacintha Lawdham","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"1996-12-27"},
 {"id":8,"titolo":"Sekirei","prezzo":"€10,49","Pagine":8,"annoPub":1994,"autore":"Lia Hatherley","reparto":1,"rilegato":"si","immagine":"null","editore":"Cigno","Collana":"","dataArchiviazione":"1990-8-20"},
 {"id":9,"titolo":"Gone with the Wind","prezzo":"€34,68","Pagine":9,"annoPub":2007,"autore":"Ruby Balducci","reparto":4,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2005-4-16"},
-{"id":10,"titolo":"Hush... Hush, Sweet Charlotte","prezzo":"€9,46","Pagine":10,"annoPub":1995,"autore":"Arlina Hand","reparto":8,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":"","dataArchiviazione":"2014-1-1"},
+{"id":10,"titolo":"Hush... Hush Sweet Charlotte","prezzo":"€9,46","Pagine":10,"annoPub":1995,"autore":"Arlina Hand","reparto":8,"rilegato":"si","immagine":"null","editore":"Juvenilia","Collana":"","dataArchiviazione":"2014-1-1"},
 {"id":11,"titolo":"Kids World","prezzo":"€31,67","Pagine":11,"annoPub":2007,"autore":"Gunar Gissop","reparto":7,"rilegato":"si","immagine":"null","editore":"Cigno","Collana":"","dataArchiviazione":"2006-2-2"},
 {"id":12,"titolo":"Arsène Lupin","prezzo":"€20,58","Pagine":12,"annoPub":2008,"autore":"Ernestine Kunc","reparto":7,"rilegato":"si","immagine":"null","editore":"Electa","Collana":"","dataArchiviazione":"2008-11-15"},
 {"id":13,"titolo":"In Your Hands","prezzo":"€32,88","Pagine":13,"annoPub":2003,"autore":"Oren Mawditt","reparto":6,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2015-3-27"},
@@ -26,7 +26,7 @@
 {"id":25,"titolo":"Apache Country","prezzo":"€18,90","Pagine":25,"annoPub":1999,"autore":"Nance O'Mullally","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2006-10-18"},
 {"id":26,"titolo":"If You Could Only Cook","prezzo":"€4,85","Pagine":26,"annoPub":1984,"autore":"Darill Burgwin","reparto":8,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2002-4-27"},
 {"id":27,"titolo":"2 ou 3 choses que je sais d'elle (2 or 3 Things I Know About Her)","prezzo":"€9,26","Pagine":27,"annoPub":2003,"autore":"Jacqui Genney","reparto":4,"rilegato":"si","immagine":"null","editore":"Electa","Collana":"","dataArchiviazione":"2000-8-29"},
-{"id":28,"titolo":"Mating Season, The","prezzo":"€39,44","Pagine":28,"annoPub":1993,"autore":"Phineas Loghan","reparto":5,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2009-1-17"},
+{"id":28,"titolo":"Mating Season The","prezzo":"€39,44","Pagine":28,"annoPub":1993,"autore":"Phineas Loghan","reparto":5,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2009-1-17"},
 {"id":29,"titolo":"Good Advice","prezzo":"€37,61","Pagine":29,"annoPub":2007,"autore":"Jereme Brant","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2008-3-19"},
 {"id":30,"titolo":"Two Days, One Night (Deux jours, une nuit)","prezzo":"€24,18","Pagine":30,"annoPub":2002,"autore":"Daryn Pietrusiak","reparto":1,"rilegato":"si","immagine":"null","editore":"Mondadori","Collana":"","dataArchiviazione":"2008-10-12"}
 ]

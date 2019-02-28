@@ -3,7 +3,7 @@
 	header ("Content-Type_application/json");
 	include ("get_reparto.php");
 	include("libricateg.php");
-	//include("get_date.php");
+	include("get_date.php");
 	include("get_sconti.php");
 	include("query1.php");
 	
@@ -38,8 +38,8 @@
 
 			$d2 = $_GET['d2'];
 			
-			$libri_date = get_date(d1, d2);
-			deliver_response($lbri_date);
+			$libri_date = get_date($d1, $d2);
+			deliver_response($libri_date);
 			break;
 			/*case 4:
 			

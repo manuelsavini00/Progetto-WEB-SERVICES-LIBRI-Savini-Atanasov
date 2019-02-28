@@ -1,0 +1,29 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Quantità dei libri &#xD;&#xA;&quot;Ultimi arrivi&quot;&#xD;&#xA;" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top" Width="120" Height="43"/>
+        <Button x:Name="btn_query1" Content="Premi" HorizontalAlignment="Left" Margin="23,67,0,0" VerticalAlignment="Top" Width="120" Height="48" Click="btn_query1_Click"/>
+        <Label Content="Elenco libri&#xD;&#xA;scontati&#xD;&#xA;" HorizontalAlignment="Left" Margin="223,17,0,0" VerticalAlignment="Top" Height="43" Width="96" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.816"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.627"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="btn_query2" Content="Premi" HorizontalAlignment="Left" Margin="186,68,0,0" VerticalAlignment="Top" Width="166" Height="48" Click="btn_query2_Click"/>
+        <Button x:Name="btn_query3" Content="Get" HorizontalAlignment="Left" Margin="447,67,0,0" VerticalAlignment="Top" Width="75"  Height="47"/>
+        <ListBox x:Name="lst" HorizontalAlignment="Left" Height="192" Margin="186,155,0,0" VerticalAlignment="Top" Width="166"/>
+        <Label x:Name="lbl_num" Content="" HorizontalAlignment="Left" Margin="49,137,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="Terza query" HorizontalAlignment="Left" Margin="447,26,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

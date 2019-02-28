@@ -1,7 +1,7 @@
+<?php
 
-<<<<<<< HEAD
-=======
-	$str = file_get_contents('http://localhost/json/libri.json');
+function get_date($d1,$d2){
+	$str = file_get_contents('libri.json');
 	$libri = json_decode($str, true); 
 	 
 	$libri_date = array();
@@ -13,11 +13,12 @@
 	 
 		 if($libro['dataArchiviazione'] < $date2 && $date1 > $libro['dataArchiviazione'])
 		 {
-			array_push($libri_date, array($libro['nome'], libro['dataArchiviazione'])); 
+			array_push($libri_date, array($libro['titolo'], $libro['dataArchiviazione'])); 
 		 }
 	 
 	  return $libri_date;
- }
+ 
+}
 
 ?>
->>>>>>> 2c20b27680b08fea3c1f5528616b94503c7e6780
+
