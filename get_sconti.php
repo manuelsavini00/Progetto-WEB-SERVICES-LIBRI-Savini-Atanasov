@@ -1,27 +1,27 @@
 <?php
  function get_sconti(){
 
-	$str = file_get_contents('http://localhost/json/libricateg.json');
+	$str = file_get_contents('libricateg.json');
 	$categ = json_decode($str, true); 
 	 
 	 $sconti_id = array();
-	 foreach($libricateg['libricateg'] as $sconto)
+	 foreach($categ['libricateg'] as $sconto)
 	 {
 		 if($sconto['sconto'] != 0)
-			array_push($sconti_id, $libricateg['sconto'], $libricateg['id']); 
+			array_push($sconti_id, $sconto['sconto'], $sconto['id']); 
 	 }
 	 asort($sconti_id);
 	 
-	 $str2 = file_get_contents('http://localhost/json/libri.json');
+	 $str2 = file_get_contents('libri.json');
 	 $libri = json_decode($str2, true); 
 	
 	$libri_scontati = array();
 	
-	foreach($sconti as $id)
+	foreach($sconti_id as $id)
 	{
 		foreach($libri['book'] as $libro){
 			if($id == $libro['id'])
-				array_push($libri_scontati, $libro['nome'],$id['sconto']);
+				array_push($libri_scontati, $libro['titolo'],$id['sconto']);
 		}
 	}
 	  return $libri_scontati;

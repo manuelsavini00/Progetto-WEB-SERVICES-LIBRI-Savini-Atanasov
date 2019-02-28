@@ -1,14 +1,14 @@
 <?php
  function get_result($reparto, $id_libro){
 
-	$str = file_get_contents('http://localhost/json/libri.json');
+	$str = file_get_contents('libri.json');
 	$libri = json_decode($str, true); 
 	 
 	 $result = 0;
-	 foreach($libri['book'] as $libro)
+	 foreach($id_libro as $libro)
 	 {
-		 foreach($result as $res){
-			if($res == $libro['id'] && $reparto == $libro['reparto'])
+		 foreach($libri['book'] as $res){
+			if($res['id'] == $libro && $reparto == $res['reparto'])
 			{
 				 $result++;
 	

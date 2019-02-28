@@ -1,9 +1,9 @@
 <?php
 // process client request (via URL)
 	header ("Content-Type_application/json");
-	include ("function.php");
+	include ("get_reparto.php");
 	include("libricateg.php");
-	include("get_date.php");
+	//include("get_date.php");
 	include("get_sconti.php");
 	include("query1.php");
 	
@@ -21,51 +21,39 @@
 			$reparto=get_reparto("fumetti");
 			$id_libro = get_categ("ultimi arrivi");
 			
-			$result = query1($reparto, $id_libro);
+			$result = get_result($reparto, $id_libro);
 
-			deliver_response(200,"Quantità", $result);
+			deliver_response($result);
 			break;
 			case 2:
 			
 			$sconti = get_sconti();
-			deliver_response(200,"Elenco sconto libri", $sconti);
+			deliver_response($sconti);
 			break;
-<<<<<<< HEAD
+
 			case 3:
 
-		/*	$d1 = $_GET['d1'];
-=======
-			//case 3:
-			
-			//$d1 = $_GET['d1'];
-			//$d2 = $_GET['d2'];
-			
-			//$libri_date = get_date($d1, $d2);
-			//deliver_response(200,"Libri all' interno del range", $lbri_date);
-			//break;
-			//case 4:
-			
-			
-			//break;
+
 			$d1 = $_GET['d1'];
->>>>>>> 523c34c7d6cb404b86f2d8a77e47bc350dfc399a
+
 			$d2 = $_GET['d2'];
 			
 			$libri_date = get_date(d1, d2);
-			deliver_response(200,"Libri all' interno del range", $lbri_date);*/
+			deliver_response($lbri_date);
 			break;
-			case 4:
+			/*case 4:
 			
 			$id_carrello = $_GET['id'];
 			
 			$carrello = get_carrello($id);
 			//deliver_response(200,"Carrello dell' utente", 
 			break;
-<<<<<<< HEAD
 
-=======
->>>>>>> 523c34c7d6cb404b86f2d8a77e47bc350dfc399a
+
+
+*/
 				}
+				
 	}
 	else
 	{
@@ -73,13 +61,12 @@
 		deliver_response(400,"Invalid request", NULL);
 	}
 	
-	function deliver_response($status, $status_message, $data)
+	function deliver_response($data)
 	{
-		header("HTTP/1.1 $status $status_message");
+		header("HTTP/1.1");
 		
-		$response ['status']=$status;
-		$response['status_message']=$status_message;
-		$response['data']=$data;
+		
+		$response = $data;
 		
 		$json_response=json_encode($response);
 		echo $json_response;

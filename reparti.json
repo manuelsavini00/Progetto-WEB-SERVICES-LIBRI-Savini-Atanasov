@@ -1,5 +1,5 @@
 {"reparto": [
-		{"id":1, "tipo":"fumetti"}
+		{"id":1, "tipo":"fumetti"},
 		{"id": 2 , "tipo": "architettura"},
 		{"id": 3 , "tipo": "classici greci e latini"},
 		{"id": 4 , "tipo": "arte"},
@@ -7,7 +7,7 @@
 		{"id": 6 , "tipo": "diritto"},
 		{"id": 7 , "tipo": "economia"},
 		{"id": 8 , "tipo": "fantascienza"},
-		{"id": 9 , "tipo": "filosofia"},
-		{"id": 10 , "tipo": "fumetti"},
+		{"id": 9 , "tipo": "filosofia"}
+		
 	 ]
 }

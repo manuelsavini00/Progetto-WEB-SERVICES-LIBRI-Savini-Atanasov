@@ -1,7 +1,7 @@
 <?php
  function get_reparto($find){
 
-	$str = file_get_contents('http://localhost/json/reparti.json');
+	$str = file_get_contents('reparti.json');
 	$reparti = json_decode($str, true); 
 	 
 	 foreach($reparti['reparto'] as $reparto)
