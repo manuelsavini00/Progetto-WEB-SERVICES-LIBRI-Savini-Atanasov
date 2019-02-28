@@ -10,15 +10,12 @@
 	$date2=date_create($d2);
 	
 	 foreach($libri['book'] as $libro)
-		 if(date_diff($libro['dataArchiviazione'],$date2 > 0 && date_diff($date1,$libro['dataArchiviazione']) < 0)
-			array_push($libri_date, $libro['nome'], $libro['dataArchiviazione']);
-		
-	 {
+	 
 		 if($libro['dataArchiviazione'] < $date2 && $date1 > $libro['dataArchiviazione'])
 		 {
 			array_push($libri_date, array($libro['nome'], libro['dataArchiviazione'])); 
 		 }
-	 }
+	 
 	  return $libri_date;
  }
 
